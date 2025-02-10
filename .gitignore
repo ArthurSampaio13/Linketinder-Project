@@ -1,19 +1,15 @@
-# Build e Gradle
 .gradle/
 build/
 !gradle/wrapper/gradle-wrapper.jar
 
-# Dependências Locais
 lib/
 
-# IntelliJ IDEA
 .idea/
 *.iws
 *.iml
 *.ipr
 out/
 
-# Eclipse
 .apt_generated
 .classpath
 .factorypath
@@ -21,26 +17,21 @@ out/
 .settings
 bin/
 
-# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-# VS Code
 .vscode/
 
-# Sistema Operacional
 .DS_Store
 
-# Logs e Arquivos Temporários
 *.log
 *.tmp
 
-# Manter Gradle Wrapper
 !gradle/wrapper/gradle-wrapper.jar
 !gradle/wrapper/gradle-wrapper.properties
 
-# Manter Código-fonte
 !src/
+frontend/node_modules
